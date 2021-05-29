@@ -14,3 +14,5 @@ A configuration that works for me is:
 - CUDA 10.1.105
 - cuDNN 7.6.5
 - tensorflow-gpu 2.1.0 (this is automatically installed during with the above script, see [requirements.txt](requirements.txt))
+
+### Environment
