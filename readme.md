@@ -54,3 +54,18 @@ The sensors that the agent has are shown in the figure. If the relevant sensor d
 In the figure above, 3 different situations in which the car is located and in this state data from the sensor are shown. As shown in the figure, state is a 10-element array. The first 5 elements of this array are the distance value detected by each sensor coming from the sensor. The next 5 elements are the color information perceived by the sensors. If the relevant sensor element detects a red object, it returns 1, if it detects a green object, it returns 2, and if it cannot detect any object, it returns 0. If we examine the third case in the figure, the first two sensors in the car did not detect an object and returned a fixed 100 pixel distance value determined parametrically. On the other hand, it returned 0 as color information. Also, as shown in the picture, the area scanned by the sensor is shown with a blue line. Since the next two sensors detected a green object, the area they scanned was shown with a green line and the size of the line was drawn as the distance it sensed. It also returns 79 and 97 as distance information and 2 as color information. 5. The sensor has detected a red object. In turn, it returns 1 as 76 pixels distance information and color information. Thus, the state of the car traveling in the designed world consists of the distance to the objects around it from the 5 sensors it has and the color values ​​of the objects. The relevant agent will understand whether the object will be a bait or an obstacle from the color of these objects and will learn to eat the baits without hitting the obstacles.
 
 ###	Model
+
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 64)                704       
+_________________________________________________________________
+dense_1 (Dense)              (None, 64)                4160      
+_________________________________________________________________
+dense_2 (Dense)              (None, 3)                 195       
+=================================================================
+Total params: 5,059
+Trainable params: 5,059
+Non-trainable params: 0
+
