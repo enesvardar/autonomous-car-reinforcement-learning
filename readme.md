@@ -23,4 +23,4 @@ The world created as shown in the figure has red boxes, green boxes and a car (r
 
 ### Actions
 
-![alt text](https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/actions.PNG)
+![alt text](https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/actions.png)
