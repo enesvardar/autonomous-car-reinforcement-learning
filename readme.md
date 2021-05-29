@@ -55,7 +55,9 @@ In the figure above, 3 different situations in which the car is located and in t
 
 ###	Model
 
-"sequential"
+The input layer consists of 10 neurons as the state information of the agent contains 10 data. In addition, our model has two intermediate layers and 64 neurons in each intermediate layer. In the output layer, there are 3 neurons as our agent can take 3 actions (go straight, turn right and turn left). <br/> 
+
+"model.summary()"
 
 | Layer (type) | Output Shape  | Param |
 | :--- | :---: | ---: |
