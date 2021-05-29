@@ -42,8 +42,12 @@ There are 5 different point values according to the movement of the car. The giv
 ###	State
 
 <p align="center">
-  <img src="https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/states.png" width="500">
+  <img src="https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/state.png" width="500">
 </p>
 
 The sensors that the agent has are shown in the figure. If the relevant sensor does not detect an object, it returns Lmax and blue color information as a return value. If an object is detected, the distance to the object and the color value of the object are sent to the agent. The Lmax value is a fixed value determined during the code writing phase. This value is the maximum distance that the sensor can scan. In this study, the length of 100 pixels was chosen. Therefore, if an object is not found, the value of 100 is read from the sensor.
+
+<p align="center">
+  <img src="https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/states.png">
+</p>
 
