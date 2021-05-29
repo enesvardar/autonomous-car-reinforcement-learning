@@ -17,9 +17,10 @@ A configuration that works for me is:
 
 ### Environment
 
-![alt text](https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/game.PNG "Game Play")
+![alt text](https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/game.PNG)
 
 The world created as shown in the figure has red boxes, green boxes and a car (red circle). The aim of the car is to avoid hitting these red boxes and to collect the green boxes by accepting bait. Another purpose is that if there is no obstacle in front of it or a bait around it, it goes straight and does not rotate. The game restarts when the car hits any obstacle or leaves the game frame. And the car starts moving in a random direction. In this way, the car can navigate through the game as much as possible and experience every part of the game.
 
 ### Actions
 
+![alt text](https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/actions.PNG)
