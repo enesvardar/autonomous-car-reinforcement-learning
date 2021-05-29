@@ -16,3 +16,5 @@ A configuration that works for me is:
 - tensorflow-gpu 2.1.0 (this is automatically installed during with the above script, see [requirements.txt](requirements.txt))
 
 ### Environment
+
+![alt text](https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/game.PNG "Game Play")
