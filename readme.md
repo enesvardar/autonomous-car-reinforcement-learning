@@ -65,6 +65,13 @@ dense_1 (Dense)              (None, 64)                4160
 _________________________________________________________________
 dense_2 (Dense)              (None, 3)                 195       
 _________________________________________________________________
+
+| Layer (type) | Output Shape  | Param |
+| :---         |     :---:      |          ---: |
+| dense (Dense) | (None, 64) | 704 |
+| dense_1 (Dense) | (None, 64) | 4160 |
+| dense_2 (Dense) | (None, 3) | 195 |
+
 Total params: 5,059
 Trainable params: 5,059
 Non-trainable params: 0
