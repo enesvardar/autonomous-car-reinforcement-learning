@@ -69,3 +69,6 @@ Total params: 5,059 <br/>
 Trainable params: 5,059 <br/>
 Non-trainable params: 0 <br/>
 
+###	Result
+
+As a result, after about 10 hours of training, it was seen that the agent escaped from obstacles and gained the ability to collect baits. In addition, as shown in the reward table, it was observed that the agent went straight when there was no obstacle or bait around, and did not make an unnecessary rotational movement.
