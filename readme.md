@@ -51,3 +51,4 @@ The sensors that the agent has are shown in the figure. If the relevant sensor d
   <img src="https://github.com/enesvardar/autonomous-car-reinforcement-leraning/blob/main/images/states.png">
 </p>
 
+In the figure above, 3 different situations in which the car is located and in this case (s) data from the sensor are shown. As shown in the figure, state is a 10-element array. The first 5 elements of this array are the distance value detected by each sensor coming from the sensor. The next 5 elements are the color information perceived by the sensors. If the relevant sensor element detects a red object, it returns 1, if it detects a green object, it returns 2, and if it cannot detect any object, it returns 0.
