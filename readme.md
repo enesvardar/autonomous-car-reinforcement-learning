@@ -58,12 +58,12 @@ In the figure above, 3 different situations in which the car is located and in t
 "sequential"
 
 | Layer (type) | Output Shape  | Param |
-| :---         |     :---:      |          ---: |
+| :--- | :---: | ---: |
 | dense (Dense) | (None, 64) | 704 |
 | dense_1 (Dense) | (None, 64) | 4160 |
 | dense_2 (Dense) | (None, 3) | 195 |
 
-Total params: 5,059 \n
-Trainable params: 5,059
-Non-trainable params: 0
+Total params: 5,059 <br/>
+Trainable params: 5,059 <br/>
+Non-trainable params: 0 <br/>
 
