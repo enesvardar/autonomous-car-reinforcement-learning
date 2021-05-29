@@ -63,7 +63,7 @@ In the figure above, 3 different situations in which the car is located and in t
 | dense_1 (Dense) | (None, 64) | 4160 |
 | dense_2 (Dense) | (None, 3) | 195 |
 
-Total params: 5,059 /n
+Total params: 5,059 \n
 Trainable params: 5,059
 Non-trainable params: 0
 
