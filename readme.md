@@ -57,7 +57,7 @@ In the figure above, 3 different situations in which the car is located and in t
 
 Model: "sequential"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param   
 =================================================================
 dense (Dense)                (None, 64)                704       
 _________________________________________________________________
